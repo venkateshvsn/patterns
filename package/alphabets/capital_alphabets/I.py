@@ -1,0 +1,26 @@
+def for_I():
+    """printing capital 'I' using for loop"""
+    for row in range(6):
+        for col in range(7):
+            if row==0 or row==5 or col==3:
+                print("*",end=" ")
+            else:
+                print(" ",end=" ")
+        print()
+
+
+
+def while_I():
+    """printing capital 'I' using while loop"""
+    i=0
+    while i<4:
+        j=0
+        while j<4:
+            if i==0 or i==3 or j==3:
+                print("*",end=" ")
+            else:
+                print("",end=" ")
+            j+=1
+        i+=1
+        print()
+
